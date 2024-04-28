@@ -54,7 +54,7 @@ all: esp8266_onenet.elf secondary-outputs
 
 # 工具调用
 esp8266_onenet.elf: $(OBJS) $(USER_OBJS)
-	@	@	riscv-none-embed-gcc -march=rv32imacxw -mabi=ilp32 -msmall-data-limit=8 -msave-restore -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -Wunused -Wuninitialized  -g -T "C:\Users\rgyzd9870\Desktop\esp8266_onenet(1)\esp8266\Ld\Link.ld" -nostartfiles -Xlinker --gc-sections -Wl,-Map,"esp8266_onenet.map" --specs=nano.specs --specs=nosys.specs -o "esp8266_onenet.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	@	@	riscv-none-embed-gcc -march=rv32imacxw -mabi=ilp32 -msmall-data-limit=8 -msave-restore -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -Wunused -Wuninitialized  -g -T "C:\Users\rgyzd9870\Desktop\新建文件夹 (2)\ch32_zhu\esp8266\Ld\Link.ld" -nostartfiles -Xlinker --gc-sections -Wl,-Map,"esp8266_onenet.map" --specs=nano.specs --specs=nosys.specs -o "esp8266_onenet.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@	@
 esp8266_onenet.hex: esp8266_onenet.elf
 	@	riscv-none-embed-objcopy -O ihex "esp8266_onenet.elf"  "esp8266_onenet.hex"

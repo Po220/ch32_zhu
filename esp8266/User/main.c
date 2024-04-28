@@ -51,7 +51,7 @@ int main(void)
 
 	ESP8266_Init();
 //	ESP8266_MQTTPUB(NULL);
-	ESP8266_MQTTSUB();
+//	ESP8266_MQTTSUB();
 
 	while(1)
     {
