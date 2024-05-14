@@ -1,15 +1,17 @@
-Peripheral/src/ch32v30x_dma.o: ../Peripheral/src/ch32v30x_dma.c \
- C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x_dma.h \
+Hardware/my_usart8.o: ../Hardware/my_usart8.c \
+ C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Debug/debug.h \
  C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x.h \
  C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Core/core_riscv.h \
  C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\User/system_ch32v30x.h \
  C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\User/ch32v30x_conf.h \
  C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x_adc.h \
+ C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x.h \
  C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x_bkp.h \
  C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x_can.h \
  C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x_crc.h \
  C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x_dac.h \
  C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x_dbgmcu.h \
+ C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x_dma.h \
  C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x_exti.h \
  C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x_flash.h \
  C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x_fsmc.h \
@@ -25,11 +27,10 @@ Peripheral/src/ch32v30x_dma.o: ../Peripheral/src/ch32v30x_dma.c \
  C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x_usart.h \
  C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x_wwdg.h \
  C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\User/ch32v30x_it.h \
- C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Debug/debug.h \
- C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x.h \
- C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x_misc.h
+ C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x_misc.h \
+ ../Hardware/my_usart8.h
 
-C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x_dma.h:
+C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Debug/debug.h:
 
 C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x.h:
 
@@ -41,6 +42,8 @@ C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\User/ch32v30x_conf.h:
 
 C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x_adc.h:
 
+C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x.h:
+
 C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x_bkp.h:
 
 C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x_can.h:
@@ -50,6 +53,8 @@ C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v3
 C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x_dac.h:
 
 C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x_dbgmcu.h:
+
+C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x_dma.h:
 
 C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x_exti.h:
 
@@ -81,8 +86,6 @@ C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v3
 
 C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\User/ch32v30x_it.h:
 
-C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Debug/debug.h:
-
-C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x.h:
-
 C:\Users\rgyzd9870\Desktop\githubCH32文件\ch32_zhu\esp8266\Peripheral\inc/ch32v30x_misc.h:
+
+../Hardware/my_usart8.h:

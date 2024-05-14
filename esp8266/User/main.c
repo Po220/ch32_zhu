@@ -22,7 +22,7 @@
 #include "esp8266.h"
 #include "stdio.h"
 #include "string.h"
-
+#include "my_usart8.h"
 
 /* Global typedef */
 
@@ -40,22 +40,29 @@
  */
 int main(void)
 {
-
+    u8 buff[256] ={0};
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
 	SystemCoreClockUpdate();
 	Delay_Init();
 	USART_Printf_Init(115200);
 	printf("SystemClk:%d\r\n",SystemCoreClock);
-	printf( "ChipID:%08x\r\n", DBGMCU_GetCHIPID() );
-	printf("This is printf example\r\n");
+    printf( "ChipID:%08x\r\n", DBGMCU_GetCHIPID() );
+    printf("This is printf example\r\n");
 
-	ESP8266_Init();
+	USART8_CFG();
+	DMA8_INIT();
+	USART_DMACmd(UART8,USART_DMAReq_Tx|USART_DMAReq_Rx,ENABLE);
+	USART_SendData(UART8, 0x8a);
+	Delay_Ms(100);
+
+//	ESP8266_Init();
 //	ESP8266_MQTTPUB(NULL);
 //	ESP8266_MQTTSUB();
 
 	while(1)
     {
-
+	    Rx8Buffer_Printf(buff);
+//	    Delay_Ms(15);
 	}
 }
 

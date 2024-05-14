@@ -20,6 +20,8 @@
 #include "stdio.h"
 #include "ch32v30x.h"
 
+
+
 /* UART Printf Definition */
 #define DEBUG_UART1    1
 #define DEBUG_UART2    2
@@ -27,7 +29,7 @@
 
 /* DEBUG UATR Definition */
 #ifndef DEBUG
-#define DEBUG   DEBUG_UART2
+#define DEBUG   DEBUG_UART1
 #endif
 
 /* SDI Printf Definition */
