@@ -12,6 +12,10 @@ RM := rm -rf
 -include ui/screens/subdir.mk
 -include ui/images/subdir.mk
 -include ui/fonts/subdir.mk
+-include ui/components/screens/subdir.mk
+-include ui/components/images/subdir.mk
+-include ui/components/fonts/subdir.mk
+-include ui/components/components/subdir.mk
 -include ui/components/subdir.mk
 -include ui/subdir.mk
 -include User/subdir.mk
@@ -110,7 +114,7 @@ all: LVGL.elf secondary-outputs
 
 # 工具调用
 LVGL.elf: $(OBJS) $(USER_OBJS)
-	@	@	riscv-none-embed-gcc -march=rv32imacxw -mabi=ilp32 -msmall-data-limit=8 -msave-restore -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -Wunused -Wuninitialized  -g -T "E:\新桌面\学习资料\沁恒\myself\LVGL\Ld\Link.ld" -nostartfiles -Xlinker --gc-sections -Wl,-Map,"LVGL.map" --specs=nano.specs --specs=nosys.specs -o "LVGL.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	@	@	riscv-none-embed-gcc -march=rv32imacxw -mabi=ilp32 -msmall-data-limit=8 -msave-restore -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -Wunused -Wuninitialized  -g -T "F:\ch32_zhu-lvgl\ch32_zhu-lvgl\Ld\Link.ld" -nostartfiles -Xlinker --gc-sections -Wl,-Map,"LVGL.map" --specs=nano.specs --specs=nosys.specs -o "LVGL.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@	@
 LVGL.hex: LVGL.elf
 	@	riscv-none-embed-objcopy -O ihex "LVGL.elf"  "LVGL.hex"

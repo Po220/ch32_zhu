@@ -2,13 +2,13 @@ LVGL/src/widgets/lv_dropdown.o: ../LVGL/src/widgets/lv_dropdown.c \
  ../LVGL/src/widgets/../core/lv_obj.h \
  ../LVGL/src/widgets/../core/../lv_conf_internal.h \
  ../LVGL/src/widgets/../core/../lv_conf_kconfig.h \
- E:\新桌面\学习资料\沁恒\myself\LVGL\LVGL/lv_conf.h \
+ F:\ch32_zhu-lvgl\ch32_zhu-lvgl\LVGL/lv_conf.h \
  ../LVGL/src/widgets/../core/../misc/lv_style.h \
  ../LVGL/src/widgets/../core/../misc/../font/lv_font.h \
- e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\lv_conf_internal.h \
+ f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\lv_conf_internal.h \
  ../LVGL/src/widgets/../core/../misc/../font/lv_symbol_def.h \
- e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\misc\lv_area.h \
- e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\lv_conf_internal.h \
+ f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\misc\lv_area.h \
+ f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\lv_conf_internal.h \
  ../LVGL/src/widgets/../core/../misc/lv_color.h \
  ../LVGL/src/widgets/../core/../misc/../lv_conf_internal.h \
  ../LVGL/src/widgets/../core/../misc/lv_assert.h \
@@ -30,40 +30,40 @@ LVGL/src/widgets/lv_dropdown.o: ../LVGL/src/widgets/lv_dropdown.c \
  ../LVGL/src/widgets/../core/../hal/lv_hal_disp.h \
  ../LVGL/src/widgets/../core/../hal/lv_hal.h \
  ../LVGL/src/widgets/../core/../hal/../draw/lv_draw.h \
- e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\lv_conf_internal.h \
- e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\misc\lv_style.h \
- e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\misc\lv_txt.h \
+ f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\lv_conf_internal.h \
+ f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\misc\lv_style.h \
+ f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\misc\lv_txt.h \
  ../LVGL/src/widgets/../core/../hal/../draw/lv_img_decoder.h \
  ../LVGL/src/widgets/../core/../hal/../draw/lv_img_buf.h \
- e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\misc\lv_color.h \
- e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\misc\lv_area.h \
- e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\misc\lv_fs.h \
- e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\misc\lv_types.h \
+ f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\misc\lv_color.h \
+ f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\misc\lv_area.h \
+ f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\misc\lv_fs.h \
+ f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\misc\lv_types.h \
  ../LVGL/src/widgets/../core/../hal/../draw/lv_img_cache.h \
  ../LVGL/src/widgets/../core/../hal/../draw/lv_draw_rect.h \
  ../LVGL/src/widgets/../core/../hal/../draw/sw/lv_draw_sw_gradient.h \
- e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\misc\lv_color.h \
- e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\misc\lv_style.h \
+ f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\misc\lv_color.h \
+ f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\misc\lv_style.h \
  ../LVGL/src/widgets/../core/../hal/../draw/sw/lv_draw_sw_dither.h \
- e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\core\lv_obj_pos.h \
- e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\misc\lv_area.h \
+ f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\core\lv_obj_pos.h \
+ f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\misc\lv_area.h \
  ../LVGL/src/widgets/../core/../hal/../draw/lv_draw_label.h \
- e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\misc\lv_bidi.h \
+ f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\misc\lv_bidi.h \
  ../LVGL/src/widgets/../core/../hal/../draw/lv_draw_img.h \
  ../LVGL/src/widgets/../core/../hal/../draw/lv_draw_line.h \
  ../LVGL/src/widgets/../core/../hal/../draw/lv_draw_triangle.h \
  ../LVGL/src/widgets/../core/../hal/../draw/lv_draw_arc.h \
  ../LVGL/src/widgets/../core/../hal/../draw/lv_draw_mask.h \
- e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\misc\lv_math.h \
+ f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\misc\lv_math.h \
  ../LVGL/src/widgets/../core/../hal/../draw/lv_draw_transform.h \
  ../LVGL/src/widgets/../core/../hal/../draw/lv_draw_layer.h \
  ../LVGL/src/widgets/../core/../hal/../misc/lv_color.h \
  ../LVGL/src/widgets/../core/../hal/../misc/lv_area.h \
  ../LVGL/src/widgets/../core/../hal/../misc/lv_ll.h \
  ../LVGL/src/widgets/../core/../hal/../misc/lv_timer.h \
- e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\lv_conf_internal.h \
- e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\hal\lv_hal_tick.h \
- e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\lv_conf_internal.h \
+ f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\lv_conf_internal.h \
+ f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\hal\lv_hal_tick.h \
+ f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\lv_conf_internal.h \
  ../LVGL/src/widgets/../core/../hal/lv_hal_indev.h \
  ../LVGL/src/widgets/../core/../hal/../lv_conf_internal.h \
  ../LVGL/src/widgets/../core/../hal/lv_hal_tick.h \
@@ -111,19 +111,19 @@ LVGL/src/widgets/lv_dropdown.o: ../LVGL/src/widgets/lv_dropdown.c \
 
 ../LVGL/src/widgets/../core/../lv_conf_kconfig.h:
 
-E:\新桌面\学习资料\沁恒\myself\LVGL\LVGL/lv_conf.h:
+F:\ch32_zhu-lvgl\ch32_zhu-lvgl\LVGL/lv_conf.h:
 
 ../LVGL/src/widgets/../core/../misc/lv_style.h:
 
 ../LVGL/src/widgets/../core/../misc/../font/lv_font.h:
 
-e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\lv_conf_internal.h:
+f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\lv_conf_internal.h:
 
 ../LVGL/src/widgets/../core/../misc/../font/lv_symbol_def.h:
 
-e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\misc\lv_area.h:
+f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\misc\lv_area.h:
 
-e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\lv_conf_internal.h:
+f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\lv_conf_internal.h:
 
 ../LVGL/src/widgets/../core/../misc/lv_color.h:
 
@@ -167,23 +167,23 @@ e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\lv_conf_internal.h:
 
 ../LVGL/src/widgets/../core/../hal/../draw/lv_draw.h:
 
-e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\lv_conf_internal.h:
+f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\lv_conf_internal.h:
 
-e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\misc\lv_style.h:
+f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\misc\lv_style.h:
 
-e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\misc\lv_txt.h:
+f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\misc\lv_txt.h:
 
 ../LVGL/src/widgets/../core/../hal/../draw/lv_img_decoder.h:
 
 ../LVGL/src/widgets/../core/../hal/../draw/lv_img_buf.h:
 
-e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\misc\lv_color.h:
+f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\misc\lv_color.h:
 
-e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\misc\lv_area.h:
+f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\misc\lv_area.h:
 
-e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\misc\lv_fs.h:
+f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\misc\lv_fs.h:
 
-e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\misc\lv_types.h:
+f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\misc\lv_types.h:
 
 ../LVGL/src/widgets/../core/../hal/../draw/lv_img_cache.h:
 
@@ -191,19 +191,19 @@ e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\misc\lv_types.h:
 
 ../LVGL/src/widgets/../core/../hal/../draw/sw/lv_draw_sw_gradient.h:
 
-e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\misc\lv_color.h:
+f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\misc\lv_color.h:
 
-e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\misc\lv_style.h:
+f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\misc\lv_style.h:
 
 ../LVGL/src/widgets/../core/../hal/../draw/sw/lv_draw_sw_dither.h:
 
-e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\core\lv_obj_pos.h:
+f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\core\lv_obj_pos.h:
 
-e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\misc\lv_area.h:
+f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\misc\lv_area.h:
 
 ../LVGL/src/widgets/../core/../hal/../draw/lv_draw_label.h:
 
-e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\misc\lv_bidi.h:
+f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\misc\lv_bidi.h:
 
 ../LVGL/src/widgets/../core/../hal/../draw/lv_draw_img.h:
 
@@ -215,7 +215,7 @@ e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\misc\lv_bidi.h:
 
 ../LVGL/src/widgets/../core/../hal/../draw/lv_draw_mask.h:
 
-e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\misc\lv_math.h:
+f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\misc\lv_math.h:
 
 ../LVGL/src/widgets/../core/../hal/../draw/lv_draw_transform.h:
 
@@ -229,11 +229,11 @@ e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\misc\lv_math.h:
 
 ../LVGL/src/widgets/../core/../hal/../misc/lv_timer.h:
 
-e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\lv_conf_internal.h:
+f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\lv_conf_internal.h:
 
-e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\hal\lv_hal_tick.h:
+f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\hal\lv_hal_tick.h:
 
-e:\新桌面\学习资料\沁恒\myself\lvgl\lvgl\src\lv_conf_internal.h:
+f:\ch32_zhu-lvgl\ch32_zhu-lvgl\lvgl\src\lv_conf_internal.h:
 
 ../LVGL/src/widgets/../core/../hal/lv_hal_indev.h:
 

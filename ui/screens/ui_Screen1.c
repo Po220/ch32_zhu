@@ -11,15 +11,15 @@ void ui_Screen1_screen_init(void)
     lv_obj_clear_flag(ui_Screen1, LV_OBJ_FLAG_CLICKABLE | LV_OBJ_FLAG_SCROLLABLE);      /// Flags
     lv_obj_set_scroll_dir(ui_Screen1, LV_DIR_TOP);
 
-    ui_Panel1 = lv_obj_create(ui_Screen1);
-    lv_obj_set_width(ui_Panel1, lv_pct(100));
-    lv_obj_set_height(ui_Panel1, lv_pct(72));
-    lv_obj_set_x(ui_Panel1, 1);
-    lv_obj_set_y(ui_Panel1, 47);
-    lv_obj_set_align(ui_Panel1, LV_ALIGN_CENTER);
-    lv_obj_clear_flag(ui_Panel1, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
+    ui_Panel3 = lv_obj_create(ui_Screen1);
+    lv_obj_set_width(ui_Panel3, lv_pct(100));
+    lv_obj_set_height(ui_Panel3, lv_pct(72));
+    lv_obj_set_x(ui_Panel3, 1);
+    lv_obj_set_y(ui_Panel3, 47);
+    lv_obj_set_align(ui_Panel3, LV_ALIGN_CENTER);
+    lv_obj_clear_flag(ui_Panel3, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
 
-    ui_Keyboard1 = lv_keyboard_create(ui_Panel1);
+    ui_Keyboard1 = lv_keyboard_create(ui_Panel3);
     lv_keyboard_set_mode(ui_Keyboard1, LV_KEYBOARD_MODE_NUMBER);
     lv_obj_set_width(ui_Keyboard1, 240);
     lv_obj_set_height(ui_Keyboard1, 150);

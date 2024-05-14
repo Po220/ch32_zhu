@@ -80,6 +80,10 @@ LVGL/src/widgets \
 Peripheral/src \
 Startup \
 User \
+ui/components/components \
+ui/components/fonts \
+ui/components/images \
+ui/components/screens \
 ui/components \
 ui/fonts \
 ui/images \

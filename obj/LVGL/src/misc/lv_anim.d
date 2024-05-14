@@ -1,7 +1,7 @@
 LVGL/src/misc/lv_anim.o: ../LVGL/src/misc/lv_anim.c \
  ../LVGL/src/misc/lv_anim.h ../LVGL/src/misc/../lv_conf_internal.h \
  ../LVGL/src/misc/../lv_conf_kconfig.h \
- E:\新桌面\学习资料\沁恒\myself\LVGL\LVGL/lv_conf.h \
+ F:\ch32_zhu-lvgl\ch32_zhu-lvgl\LVGL/lv_conf.h \
  ../LVGL/src/misc/../hal/lv_hal_tick.h \
  ../LVGL/src/misc/../hal/../lv_conf_internal.h \
  ../LVGL/src/misc/lv_assert.h ../LVGL/src/misc/lv_log.h \
@@ -31,7 +31,7 @@ LVGL/src/misc/lv_anim.o: ../LVGL/src/misc/lv_anim.c \
 
 ../LVGL/src/misc/../lv_conf_kconfig.h:
 
-E:\新桌面\学习资料\沁恒\myself\LVGL\LVGL/lv_conf.h:
+F:\ch32_zhu-lvgl\ch32_zhu-lvgl\LVGL/lv_conf.h:
 
 ../LVGL/src/misc/../hal/lv_hal_tick.h:
 
